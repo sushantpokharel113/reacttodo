@@ -30,7 +30,9 @@ function Todos() {
         <span className="col s2 flow-text green-text">
           Completed : {getTodoCount("Completed")}
         </span>
-        <span className="col s2">Pending : {getTodoCount("NotCompleted")}</span>
+        <span className="col s2 flow-text blue-text">
+          Pending : {getTodoCount("NotCompleted")}
+        </span>
       </div>
       <div className="row">
         <ul className="collection with-header col s6">
